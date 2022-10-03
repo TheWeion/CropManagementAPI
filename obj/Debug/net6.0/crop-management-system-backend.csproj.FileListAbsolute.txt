@@ -25,3 +25,4 @@
 /home/weion/Coding Projects/futureproof/bonus-lap/crop-management-system-backend/obj/Debug/net6.0/crop-management-system-backend.pdb
 /home/weion/Coding Projects/futureproof/bonus-lap/crop-management-system-backend/obj/Debug/net6.0/crop-management-system-backend.genruntimeconfig.cache
 /home/weion/Coding Projects/futureproof/bonus-lap/crop-management-system-backend/obj/Debug/net6.0/ref/crop-management-system-backend.dll
+/home/weion/Coding Projects/futureproof/bonus-lap/crop-management-system-backend/bin/Debug/net6.0/Npgsql.dll
