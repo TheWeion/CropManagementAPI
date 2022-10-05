@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crop-management-system-back
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CropManagementSystem.Data", "CropManagementSystem.Data\CropManagementSystem.Data.csproj", "{2D954868-9932-4CBA-8BC6-68C0B82C5707}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crop-management-system-backend", "crop-management-system-backend", "{BAFD8D11-C9E6-4365-BA8B-DF9772D2CC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CropManagementSystem.Tests", "crop-management-system-backend\CropManagementSystem.Tests\CropManagementSystem.Tests.csproj", "{69794DB4-683F-476C-AC9E-8935FCAB4A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +25,18 @@ Global
 		{2D954868-9932-4CBA-8BC6-68C0B82C5707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D954868-9932-4CBA-8BC6-68C0B82C5707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D954868-9932-4CBA-8BC6-68C0B82C5707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69794DB4-683F-476C-AC9E-8935FCAB4A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69794DB4-683F-476C-AC9E-8935FCAB4A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69794DB4-683F-476C-AC9E-8935FCAB4A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69794DB4-683F-476C-AC9E-8935FCAB4A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D0F53A6-655B-4FD6-9E32-956AB538E448}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69794DB4-683F-476C-AC9E-8935FCAB4A38} = {BAFD8D11-C9E6-4365-BA8B-DF9772D2CC67}
 	EndGlobalSection
 EndGlobal
