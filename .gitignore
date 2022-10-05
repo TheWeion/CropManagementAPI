@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# All NuGet Packages Directory
+_ReSharper.*
+bin
+**obj
+packages
+
 # User-specific files
 *.rsuser
 *.suo
