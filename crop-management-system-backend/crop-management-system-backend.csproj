@@ -16,6 +16,7 @@
 	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.7" />
     <PackageReference Include="Npgsql" Version="6.0.7" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="xUnit" Version="2.4.2" />
   </ItemGroup>
 
   <ItemGroup>
