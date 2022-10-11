@@ -7,7 +7,8 @@
 
 ## Changelog
 
-- [x] API Restructure and JWT Integrated into the application.
+- [x] Implemented User Controller
+- [x] API Restructure and JWT Integrated into the application
 - [x] Xunit Setup
 - [x] Implemented DB connection
 - [x] Initial Commit
