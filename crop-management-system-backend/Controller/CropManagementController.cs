@@ -16,11 +16,29 @@ namespace crop_management_system_backend
 
         [HttpGet]
         [Route("Users")]
-        public IActionResult Index()
+        public IActionResult userIndex()
         {
             var Users = this.context.users.ToList();
 
             return Ok(Users);
+        }
+
+        [HttpGet]
+        [Route("Tracks")]
+        public IActionResult trackIndex()
+        {
+            var Tracks = this.context.tracks.ToList();
+
+            return Ok(Tracks);
+        }
+
+        [HttpPost]
+        [Route("Tracks")]
+        public IActionResult createTrack(Track track)
+        {
+            var Tracks = this.context.tracks.Add(track);
+
+            return Ok(Tracks);
         }
     }
 }

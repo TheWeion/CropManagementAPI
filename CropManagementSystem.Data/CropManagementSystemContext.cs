@@ -20,6 +20,6 @@ namespace CropManagementSystem.Data
         }
         
         public DbSet<User> users { get; set; }
-        public DbSet<Track> Tracks { get; set; }
+        public DbSet<Track> tracks { get; set; }
     }
 }
