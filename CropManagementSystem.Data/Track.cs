@@ -10,7 +10,6 @@ namespace CropManagementSystem.Data
 {
     public class Track
     {
-        [Required]
         [Key]
         public int track_id { get; set; }
 
@@ -19,12 +18,12 @@ namespace CropManagementSystem.Data
         public int user_id { get; set; }
 
         [Required]
-        public int crop_id { get; set; }
+        public string crop_id { get; set; }
 
-        public DateTime sown { get; set; }
+        public DateTime? sown { get; set; }
 
-        public DateTime watered { get; set; }
-        public DateTime[] fed { get; set; }
-        public DateTime[] harvested { get; set; }
+        public DateTime? watered { get; set; }
+        public DateTime[]? fed { get; set; }
+        public DateTime[]? harvested { get; set; }
     }
 }

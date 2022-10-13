@@ -37,8 +37,9 @@ namespace crop_management_system_backend
         public IActionResult createTrack(Track track)
         {
             var Tracks = this.context.tracks.Add(track);
-
-            return Ok(Tracks);
+            this.context.SaveChanges();
+ 
+            return Ok();
         }
     }
 }
