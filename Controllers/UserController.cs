@@ -12,7 +12,7 @@ namespace CropManagementAPI.Controllers
 	public class UserController : ControllerBase
 	{
 		[HttpGet("Admin")]
-		[Authorize(Roles = "Administrator")]
+		[Authorize]
 		
 		public IActionResult AdminEndpoint()
 		{
@@ -22,7 +22,6 @@ namespace CropManagementAPI.Controllers
 		}
 
 		[HttpGet("Public")]
-
 		public IActionResult GetPublic()
 		{
 			return Ok("This is a public endpoint");
