@@ -18,7 +18,7 @@ namespace CropManagementAPI.Controllers
         }
 
         [HttpGet]
-        [Route("Tracks")]
+        [Route("All")]
         public IActionResult trackIndex()
         {
             var Tracks = this.context.tracks.ToList();
@@ -27,11 +27,11 @@ namespace CropManagementAPI.Controllers
         }
 
         [HttpPost]
-        [Route("Tracks")]
+        [Route("Create")]
         public IActionResult createTrack(TrackModel track)
         {
             var Tracks = this.context.tracks.Add(track);
-
+            this.context.SaveChanges();
             return Ok();
             
         }
