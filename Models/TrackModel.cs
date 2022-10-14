@@ -10,7 +10,11 @@ namespace CropManagementAPI.Models
 		public int track_id { get; set; }
 
 		[Required]
-		public string CropId { get; set; }
+        [MaxLength(50)]
+		public string name { get; set; }
+
+		[Required]
+		public string crop_id { get; set; }
 
 		[Required]
 		[ForeignKey("User")]
