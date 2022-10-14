@@ -6,30 +6,23 @@ namespace CropManagementAPI.Models
 {
 	public class TrackModel
 	{
-        [Column("track_id")]
 		[Key]
-		public int TrackId { get; set; }
+		public int track_id { get; set; }
 
 		[Required]
-		[Column("crop_id")]
-		public int CropId { get; set; }
+		public string CropId { get; set; }
 
 		[Required]
 		[ForeignKey("User")]
-		[Column("user_id")]
-		public int UserId { get; set; }
+		public int user_id { get; set; }
 
-		[Column("sown")]
-		public DateTime? DatePlanted { get; set; }
+		public DateTime? sown { get; set; }
 
-		[Column("watered")]
-		public DateTime? DateWatered { get; set; }
+		public DateTime? watered { get; set; }
 
-		[Column("fed")]
-		public DateTime[]? DateFed { get; set; }
+		public DateTime[]? fed { get; set; }
 
-        [Column("harvested")]
-        public DateTime[]? DateHarvested { get; set; }
+        public DateTime[]? harvested { get; set; }
 
 
 
